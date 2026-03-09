@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>generate QR-code</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+    <div id="QR-output"></div>
+
+    <script>
+        const QRElement = document.getElementById('QR-output');
+        let url = 'https://github.com/MattijsVandebroekPXL/QR-code-testing' // test URL
+        // QRElement.innerHTML = "";
+        // new QRCode(QRElement, url);
+
+        const currentDate = new Date();
+        const timeStamp = currentDate.getTime();
+        const code = "Mattijs-" + timeStamp.toString();
+        QRElement.innerHTML = "";
+        new QRCode(QRElement, {
+            text: code,
+            width: 300,
+            height: 300,
+            colorLight: 'red',
+            colorDark: 'blue',
+        });
+    </script>
+</body>
+</html>

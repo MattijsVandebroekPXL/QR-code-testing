@@ -12,6 +12,7 @@
   },
   "private": true,
   "dependencies": {
-    "html5-qrcode": "^2.3.8"
+    "html5-qrcode": "^2.3.8",
+    "qrcode": "^1.5.4"
   }
 }
