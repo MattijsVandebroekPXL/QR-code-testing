@@ -1,0 +1,17 @@
+{
+  "name": "html5-qrcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattijsVandebroekPXL/QR-code-testing.git"
+  },
+  "private": true,
+  "dependencies": {
+    "html5-qrcode": "^2.3.8"
+  }
+}
