@@ -1,0 +1,24 @@
+{
+  "name": "qr-code-testing",
+  "version": "1.0.0",
+  "description": "In this repository I test several QR code libraries to use in Vue, so we can decide which QR code library is the best in our project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattijsVandebroekPXL/QR-code-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MattijsVandebroekPXL/QR-code-testing/issues"
+  },
+  "homepage": "https://github.com/MattijsVandebroekPXL/QR-code-testing#readme",
+  "dependencies": {
+    "html5-qrcode": "^2.3.8"
+  }
+}
