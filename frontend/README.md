@@ -4,7 +4,7 @@ In this repository I test several QR code libraries to use in Vue, so we can dec
 ## Libraries that will be tested:
 ### Html5-qrCode
 This library works in JavaScript.
-Status: Work In Progress
+Status: done
 ### ZXing
 This library (pronounced as Zebra Crossing) works in Java.
 Status: Not started yet.
