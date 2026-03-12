@@ -11,6 +11,6 @@ public class GenerateWithZXing
         String filePath = "zxingQrcode.png";
         int width = 300;
         int height = 300;
-        
+
     }
 }
