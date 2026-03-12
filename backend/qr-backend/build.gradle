@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'be.pxl.student'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'com.google.ml kit:barcode-scanning:17.0.0'
+    implementation 'com.google.zxing:core:3.5.2'
+}
+
+test {
+    useJUnitPlatform()
+}
