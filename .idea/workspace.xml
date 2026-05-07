@@ -54,8 +54,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
       </set>
     </attachedChunks>
   </component>
@@ -72,6 +71,7 @@
       <workItem from="1773309359365" duration="2420000" />
       <workItem from="1778142376437" duration="867000" />
       <workItem from="1778143264742" duration="929000" />
+      <workItem from="1778144297628" duration="1026000" />
     </task>
     <servers />
   </component>
