@@ -6,25 +6,39 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-
-    <div id="QR-output"></div>
+    <h1>QR code to GitHub repository</h1>
+    <br>
+    <div id="QR-output-1"></div>
+    <br>
+    <h1>QR code with text and timestamp</h1>
+    <br>
+    <div id="QR-output-2"></div>
 
     <script>
-        const QRElement = document.getElementById('QR-output');
+        const QRElement1 = document.getElementById('QR-output-1');
         let url = 'https://github.com/MattijsVandebroekPXL/QR-code-testing' // test URL
-        // QRElement.innerHTML = "";
-        // new QRCode(QRElement, url);
 
+        const QRElement2 = document.getElementById('QR-output-2');
         const currentDate = new Date();
         const timeStamp = currentDate.getTime();
         const code = "Mattijs-" + timeStamp.toString();
-        QRElement.innerHTML = "";
-        new QRCode(QRElement, {
-            text: code,
+
+        QRElement1.innerHTML = "";
+        new QRCode(QRElement1, {
+            text: url,
             width: 300,
             height: 300,
             colorLight: 'white',
             colorDark: 'black',
+        });
+
+        QRElement2.innerHTML = "";
+        new QRCode(QRElement2, {
+            text: code,
+            width: 300,
+            height: 300,
+            colorLight: 'yellow',
+            colorDark: 'blue',
         });
     </script>
 </body>
